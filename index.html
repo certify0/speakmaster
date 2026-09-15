@@ -15,6 +15,8 @@
     --ivory-dim:rgba(244,242,234,0.62);
     --amber:#ffb648;
     --amber-dim:rgba(255,182,72,0.16);
+    --mint:#63e6c0;
+    --mint-dim:rgba(99,230,192,0.16);
     --line:rgba(244,242,234,0.22);
   }
 
@@ -157,6 +159,17 @@
     border-color:rgba(255,182,72,0.45);
   }
 
+  .btn-tertiary{
+    background:var(--mint-dim);
+    color:var(--ivory);
+    border:1px solid rgba(99,230,192,0.4);
+  }
+
+  .btn-tertiary:hover{
+    background:rgba(99,230,192,0.26);
+    border-color:rgba(99,230,192,0.6);
+  }
+
   .btn:focus-visible{
     outline:2px solid var(--amber);
     outline-offset:3px;
@@ -183,7 +196,8 @@
 
     <div class="actions">
       <a class="btn btn-primary" href="https://speakmaster.co.kr/" target="_blank" rel="noopener">스픽마스터 홈페이지</a>
-      <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSe3ckelVoJbBgNuJysGYX532t6clh1ycgY5vu64msfyHBSAWg/viewform?usp=sharing&ouid=107375793916467323351" target="_blank" rel="noopener">스픽마스터 체험 계정 신청</a>
+      <a class="btn btn-secondary" href="https://qa-test-accounts.web.app/" target="_blank" rel="noopener">스픽마스터 체험 계정 신청</a>
+      <a class="btn btn-tertiary" href="https://docs.google.com/forms/d/e/1FAIpQLSe3ckelVoJbBgNuJysGYX532t6clh1ycgY5vu64msfyHBSAWg/viewform?usp=sharing&ouid=107375793916467323351" target="_blank" rel="noopener">스픽마스터 문의하기</a>
     </div>
 
     <footer>ⓒ 2026 EDUTEM. All rights reserved.</footer>
